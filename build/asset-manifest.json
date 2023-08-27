@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ada792f0.css",
+    "main.js": "/static/js/main.c60d70f6.js",
+    "static/media/hopkins.jpg": "/static/media/hopkins.8c63a12dedc38415f1b8.jpg",
+    "static/media/california.png": "/static/media/california.9b858e1ed5fed87c0b02.png",
+    "static/media/eth.jpg": "/static/media/eth.c1236dc4950afb070008.jpg",
+    "static/media/edinburgh.png": "/static/media/edinburgh.392e1f0da01d9855906b.png",
+    "static/media/cambridge.jpg": "/static/media/cambridge.265d56f1e92bdb9d41b0.jpg",
+    "static/media/harvard.png": "/static/media/harvard.7cca8079c42594f1ce88.png",
+    "static/media/planck.png": "/static/media/planck.3bf753f7890b343760df.png",
+    "static/media/illinois.png": "/static/media/illinois.7cfccca106b6d1e7e14d.png",
+    "index.html": "/index.html",
+    "main.ada792f0.css.map": "/static/css/main.ada792f0.css.map",
+    "main.c60d70f6.js.map": "/static/js/main.c60d70f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ada792f0.css",
+    "static/js/main.c60d70f6.js"
+  ]
+}
