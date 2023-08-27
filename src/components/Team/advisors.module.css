@@ -1,0 +1,270 @@
+ .section {
+   background: linear-gradient(360deg, rgb(35, 78, 176, 0.1) 5%, rgb(144, 16, 176, 0.1) 100%);
+   border-radius: 2rem;
+   color: #354364;
+ }
+
+ .section h2 {
+   font-size: 4rem;
+ }
+
+ .advisors {
+   display: flex;
+   gap: 2rem;
+   justify-content: space-between;
+   margin-top: 4rem;
+   align-items: start;
+
+ }
+
+ .advisorsInfoContainer {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   align-items: end;
+ }
+
+ .advisorsInfoCard {
+   display: flex;
+
+   gap: 2rem;
+   background: linear-gradient(360deg, rgb(35, 78, 176, 0.2) 5%, rgb(144, 16, 176, 0.2) 100%);
+   padding: 2rem;
+   align-items: center;
+   justify-content: space-between;
+   padding-bottom: 0;
+   border-radius: 2rem;
+   margin-top: 4rem;
+ }
+
+ .advisorsInfoCard img {
+   width: 15rem;
+   height: 15rem;
+   object-fit: cover;
+   border-radius: 2rem;
+   transform: translateY(-30%);
+
+ }
+
+ .advisorName {
+   font-size: 2.4rem;
+   font-weight: 500;
+   margin-top: 2rem;
+ }
+
+ .advisorDesignation {
+   font-size: 1.6rem;
+   margin-top: 1rem;
+   font-weight: 500;
+ }
+
+ .education {
+   font-size: 1.4rem;
+   margin-top: 1rem;
+   font-weight: 300;
+ }
+
+ .advisorSectionContent {
+   font-size: 1.6rem;
+   margin-top: 2rem;
+ }
+
+
+
+ /* Button */
+ button {
+   font-family: inherit;
+   font-size: 18px;
+   background:  linear-gradient(to  bottom right, rgb(35, 78, 176, 1) 5%, rgb(144, 16, 176, 1) 100%);
+   color: white;
+   padding: 0.8em 1.2em;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: none;
+   border-radius: 25px;
+   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+   transition: all 0.3s;
+   margin-top: 1rem;
+   cursor: pointer;
+ }
+
+ button:hover {
+   transform: translateY(-3px);
+   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+ }
+
+ button:active {
+   transform: scale(0.95);
+   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+ }
+
+ button span {
+   display: block;
+   margin-left: 0.4em;
+   transition: all 0.3s;
+ }
+
+ button svg {
+   width: 18px;
+   height: 18px;
+   fill: white;
+   transition: all 0.3s;
+ }
+
+ button .svg-wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background-color: rgba(255, 255, 255, 0.2);
+   margin-right: 0.5em;
+   transition: all 0.3s;
+ }
+
+ button:hover .svg-wrapper {
+   background-color: rgba(255, 255, 255, 0.5);
+ }
+
+ button:hover svg {
+   transform: rotate(45deg);
+ }
+
+
+ /* RESPONSIVENESS */
+
+ @media(max-width:99em){
+  .advisors {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 4rem;
+    align-items: start;
+    flex-direction: column;
+    align-items: center;
+  }
+  .advisorsInfoContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    width: 60%;
+    align-items: center;
+  }
+
+  .advisorsInfoCard {
+    display: flex;
+ 
+    gap: 2rem;
+    background: linear-gradient(360deg, rgb(35, 78, 176, 0.2) 5%, rgb(144, 16, 176, 0.2) 100%);
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0;
+    border-radius: 2rem;
+    margin-top: 4rem;
+    width: 100%;
+  }
+ }
+
+ 
+ @media(max-width:50em){
+  .advisors {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 4rem;
+    align-items: start;
+    flex-direction: column;
+    align-items: center;
+  }
+  .advisorsInfoContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    width: 80%;
+    align-items: center;
+  }
+
+ 
+ }
+ @media(max-width:39em){
+  .advisors {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 4rem;
+    align-items: start;
+    flex-direction: column;
+    align-items: center;
+  }
+  .advisorsInfoContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+    align-items: center;
+  }
+
+ 
+ }
+ @media(max-width:27em){
+ 
+  button {
+    font-family: inherit;
+    font-size: 12px;
+ 
+  }
+  .advisorName {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 2rem;
+  }
+ 
+  .advisorDesignation {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    font-weight: 500;
+  }
+ 
+  .education {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: 300;
+  }
+ 
+  .advisorSectionContent {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+  }
+  .advisorsInfoCard img {
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 2rem;
+    transform: translateY(-30%);
+ 
+  }
+
+  .section h2 {
+    font-size: 3rem;
+  }
+  .advisors {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+    align-items: start;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+ }

@@ -1,0 +1,45 @@
+/* @import url("../../App.css"); */
+.instituteSectionContainer{
+  background: linear-gradient(360deg, rgb(35, 78, 176,0.1) 5%, rgb(144, 16, 176,0.1) 100%);
+  padding: 4rem 0;
+  margin-top: 8rem;
+}
+.logoImg {
+  width: 80%;
+  filter: grayscale(100%);
+}
+
+.section div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  align-items: center;
+  row-gap: 4rem;
+}
+
+
+.section p {
+  text-align: center;
+  font-size: 4rem;
+  padding: 2rem 0;
+}
+
+@media(max-width:59em){
+  .instituteSectionContainer{
+    background: linear-gradient(360deg, rgb(35, 78, 176,0.1) 5%, rgb(144, 16, 176,0.1) 100%);
+    padding: 2rem 0;
+    margin-top: 6rem;
+  }
+}
+
+@media(max-width:27em){
+  .instituteSectionContainer{
+    background: linear-gradient(360deg, rgb(35, 78, 176,0.1) 5%, rgb(144, 16, 176,0.1) 100%);
+    padding: 1rem 0;
+    margin-top: 4rem;
+  }
+  .logoImg {
+    width: 100%;
+    filter: grayscale(100%);
+  }
+}
